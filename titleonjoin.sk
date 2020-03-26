@@ -1,0 +1,8 @@
+on join:
+  send title "&fWelcome!" with subtitle "&fWe hope you enjoy our server :D" to player
+  set the join message to "&a+ &f%player%"
+  
+on quit:
+  set the quit message to "&c- &f%player%"
+  
+  # PLEASE NOTE: 'quit' may not work. If it doesn't, try replacing it with 'leave'.
